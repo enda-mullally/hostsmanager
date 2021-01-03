@@ -1,7 +1,4 @@
-﻿
-using System;
-using System.ComponentModel;
-using System.Drawing;
+﻿using System.ComponentModel;
 using System.Windows.Forms;
 
 namespace HostsManager.Forms
@@ -161,7 +158,7 @@ namespace HostsManager.Forms
             // 
             this.uxlblEnabled.AutoSize = true;
             this.uxlblEnabled.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.uxlblEnabled.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.uxlblEnabled.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.uxlblEnabled.Location = new System.Drawing.Point(86, 14);
             this.uxlblEnabled.Name = "uxlblEnabled";
             this.uxlblEnabled.Size = new System.Drawing.Size(188, 25);
@@ -172,18 +169,18 @@ namespace HostsManager.Forms
             // 
             this.uxlblHostNames.AutoSize = true;
             this.uxlblHostNames.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.uxlblHostNames.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.uxlblHostNames.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.uxlblHostNames.Location = new System.Drawing.Point(89, 54);
             this.uxlblHostNames.Name = "uxlblHostNames";
-            this.uxlblHostNames.Size = new System.Drawing.Size(52, 15);
+            this.uxlblHostNames.Size = new System.Drawing.Size(44, 15);
             this.uxlblHostNames.TabIndex = 5;
-            this.uxlblHostNames.Text = "Host(s) :";
+            this.uxlblHostNames.Text = "Hosts :";
             // 
             // uxlblHostsCount
             // 
             this.uxlblHostsCount.AutoSize = true;
             this.uxlblHostsCount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.uxlblHostsCount.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.uxlblHostsCount.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.uxlblHostsCount.Location = new System.Drawing.Point(184, 54);
             this.uxlblHostsCount.Name = "uxlblHostsCount";
             this.uxlblHostsCount.Size = new System.Drawing.Size(105, 15);
@@ -194,7 +191,7 @@ namespace HostsManager.Forms
             // 
             this.uxlblHostsFileSize.AutoSize = true;
             this.uxlblHostsFileSize.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.uxlblHostsFileSize.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.uxlblHostsFileSize.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.uxlblHostsFileSize.Location = new System.Drawing.Point(184, 78);
             this.uxlblHostsFileSize.Name = "uxlblHostsFileSize";
             this.uxlblHostsFileSize.Size = new System.Drawing.Size(63, 15);
@@ -205,7 +202,7 @@ namespace HostsManager.Forms
             // 
             this.uxlblFileSize.AutoSize = true;
             this.uxlblFileSize.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.uxlblFileSize.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.uxlblFileSize.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.uxlblFileSize.Location = new System.Drawing.Point(89, 78);
             this.uxlblFileSize.Name = "uxlblFileSize";
             this.uxlblFileSize.Size = new System.Drawing.Size(53, 15);
@@ -280,7 +277,7 @@ namespace HostsManager.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.ClientSize = new System.Drawing.Size(404, 324);
             this.Controls.Add(this.uxbtnFlushDNS);
             this.Controls.Add(this.uxbtnEdit);

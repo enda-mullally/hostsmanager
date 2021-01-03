@@ -288,6 +288,7 @@ namespace HostsManager.Forms
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             // ReSharper disable once RedundantAssignment
+            // ReSharper disable once ConvertToConstant.Local
             var isDebug = false;
 #if DEBUG
             isDebug = true;
